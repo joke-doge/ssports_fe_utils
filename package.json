@@ -1,0 +1,28 @@
+{
+  "name": "ssports_fe_utils",
+  "version": "1.0.0",
+  "description": "新英体育前端业务代码工具库",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": "https://github.com/tonyssc/ssports_fe_utils",
+  "author": "sunsc@ssports.com",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.1.6",
+    "eslint": "^4.19.1",
+    "eslint-config-alloy": "^1.4.2",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3"
+  }
+}
